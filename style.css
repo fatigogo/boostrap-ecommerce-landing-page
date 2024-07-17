@@ -1,0 +1,252 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: rgb(192, 188, 188); */
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav{
+    padding: 0 50px;
+    width: 100%;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 5;
+}
+
+.navbar-one{
+    background-color: rgb(57, 58, 58);
+    color: black;
+    height: 25px;
+    cursor: pointer;
+}
+
+.left > div + div{
+    margin-left: 40px;
+}
+
+.right > div{
+    margin-left: 20px;
+}
+
+.left > div:hover
+.right > div:hover{
+    color: black;
+    transition: all 0.5s;
+}
+
+span{
+    margin-left: 5px;
+    font-size: 12px;
+    color: white;
+}
+
+.navbar-second{
+    background-color: rgb(134, 158, 158);
+    height: 60px;
+    position: sticky;
+    top: 0;
+}
+
+.logo{
+    text-transform: uppercase;
+    font-size: 24px;
+    cursor: pointer;
+    color: green;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 12px;
+    margin-left: 30px;
+    color: black;
+    font-weight: 400;
+}
+
+/* section{
+    width: 100%;
+    height: 300px;
+    background: url(z-images/zay4.jpeg)no-repeat center center/cover;
+} */
+
+.list-items{
+   display: inline-flex;
+   padding-right: 600px;
+}
+/* slide images */
+.carousel-item IMG{
+    height: 500px;
+    object-fit: cover;
+}
+
+.first-slide{
+    top: 0;
+}
+/* categories */
+.partner-logo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+    padding: 50px;
+    /* margin: 250px; */
+    gap: 20px;
+}
+
+.partner-logo   .col {
+    text-align: center;
+    max-width: 150px;
+}
+.partner-logo img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+}
+.cate{
+    padding-top: 3%;
+    text-align: center;
+}
+
+.partener-logo p{
+    margin-top: 10px;
+}
+.partner-logo button{
+    margin-top: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 12ppx;
+    color: white;
+    background-color: green;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    /* top: 5; */
+}
+
+/* featured products */
+.featured-section h3{
+    text-align: center;
+    padding-top: 3%;
+}
+.featured-section p{
+    text-align: center;
+    /* padding-top: 3%; */
+}
+.card-one{
+    width: 250px;
+}
+
+.featured-section{
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 50px;
+    
+}
+.featured-products{
+    display: flex;
+    gap: 8px;
+    margin-left: 250px;
+    padding-bottom: 50px;
+}
+/* big footer */
+.big-footer{
+    background-color: rgb(27, 27, 27);
+    padding-top: 20px;
+}
+.email i{
+    color: antiquewhite;
+}
+.big-footer-list{
+    color: aliceblue;
+    font-size: 15px;
+}
+.big-footer-list h3{
+    padding: 10px;
+}
+.big-header{
+    color: green;
+    padding-top: 5px;
+}
+
+.big-footer-border li, a{
+    color: white;
+}
+
+.sub-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 35px;
+}
+
+.big-foot-border{
+    width: 200px;
+    opacity: 0.3;
+}
+.sub-foot-border{
+    opacity: 0.3;
+}
+
+.icons i {
+    margin-right: 10px;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+}
+
+.srch {
+    padding: 5px 10px;
+    border-radius: 4px;
+    border: 2px solid #ccc;
+}
+.search .btn {
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    top: -2px;
+}
+
+
+.small-footer{
+    background-color: black;
+    padding-top: 20px;
+    color: white;
+}
+
+.carousel-caption {
+    position: absolute;
+    left: 30%;
+    top: 60%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    padding: 20px;
+    width: 40%;
+}
+
+
+@media (min-width: 768px){
+    
+}
